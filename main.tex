@@ -1,0 +1,321 @@
+\documentclass[10PT,letter]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{datetime}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{titlesec}
+%\usepackage{times}
+% \usepackage{libertine}
+% \usepackage[varqu]{zi4}
+% \usepackage[libertine]{newtxmath}
+\usepackage{lmodern}
+
+
+\usepackage[pdfauthor={Gabriele Farina},
+   pdftitle={CV of Gabriele Farina},
+   pdfsubject={Detailed CV of Gabriele Farina},
+   colorlinks=true,
+   urlcolor=colorL,
+   linkcolor=colorL]{hyperref}
+   
+%   \IfFileExists{lmodern.sty}%
+%   {\RequirePackage{lmodern}}%
+%   {}
+
+\usepackage[portrait, hoffset=0in, voffset=0cm, textwidth=6.8in, textheight=9.2in]{geometry}   % showframe
+
+\newdateformat{monthyeardate}{%
+  \monthname[\THEMONTH] \THEYEAR}
+
+\newcommand{\versionDate}{\monthyeardate\today}
+
+\fancyfoot{} % clear all footer fields
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[LE,RO]{\textcolor{gray}{\thepage\ of \pageref*{LastPage}}}
+\fancyfoot[RE,LO]{\footnotesize \textcolor{gray}{Curriculum Vitae of Gabriele Farina -- \versionDate}}
+
+\newcommand{\cvline}[2]{fst: #1 snd: #2\\}
+
+\definecolor{colorL}{rgb}{0.0,0.2,.4}
+\definecolor{titlecol}{rgb}{0,0,0}
+
+\newcounter{papercnt}
+
+\newcommand{\equalcontrib}{$^*$}
+
+\newcommand{\subsectionstyle}[1]{\normalfont\selectfont\textcolor{titlecol}{\sffamily #1}}
+
+\renewcommand{\baselinestretch}{1}
+\newcommand{\numbox}[1]{} %{\colorbox{titlecol}{\kern0.15em\textcolor{white}{#1}\kern0.15em}\ }
+
+\newcommand{\newl}{~}
+
+\titlespacing*{\section}{0px}{10px}{5px}
+\titlespacing*{\subsection}{0px}{6px}{4px}
+
+\title{}
+\renewcommand{\baselinestretch}{.965}
+\begin{document}
+
+%\pagestyle{fancy}
+\noindent\begin{tikzpicture}[overlay]
+\draw[black] (-2in, -1.6cm) -- (9in, -1.6cm);
+\node[anchor=west] at (0, -1.2) {\Large\sffamily\textbf{Curriculum Vitae} --- \monthyeardate\today}; 
+\end{tikzpicture}%
+	{\fontsize{34}{36}\mdseries\upshape\sffamily\bfseries Gabriele Farina}
+	
+    \vspace{2.0cm}
+    \section*{\numbox{1}\bfseries\textcolor{titlecol}{\sffamily Personal information}}
+              \begin{tabular}{rlcrl}
+                \small\textsc{Citizenship}~~~ & \small Italian &~\hspace{3.5cm}~& \small\textsc{US Visa type}~~~ & \small F-1 Student\\[.5mm]
+                \small\textsc{Email}~~~ & \small {\href{mailto:gfarina@cs.cmu.edu}{gfarina$@$cs.cmu.edu}} &&
+                \small\textsc{www}~~~ & \small \href{http://gfarina.me}{{gfarina.me}}
+                \\[.5mm]
+                \small\textsc{Phone}~~~ & \small +1\,(412)-954-8732 &&
+                %\small\textsc{Github}~~~ & \small \small\href{http://github.com/gabrfarina}{\texttt{$@$gabrfarina}}
+                %
+              \end{tabular}
+
+    % \vspace{-1pt}
+     \section*{\numbox{2}\bfseries\textcolor{titlecol}{\sffamily Education}}
+        \begin{tabular}{lp{5.45in}}
+            \textsc{8/2016 -- now} & \textbf{Ph.D. Student in Computer Science} at \href{www.cmu.edu}{Carnegie Mellon University}. I am currently in my third year.\\[.5mm]
+            & I am fortunate to be advised by \href{http://cs.cmu.edu/~sandholm}{Tuomas Sandholm}, and to be part of the \href{http://www.cs.cmu.edu/~amem/}{Electronic Marketplaces Lab}.\\[1.1mm]
+            & $\triangleright$ {\underline{Research interests}}: artificial intelligence, optimization, economics and computation,\\
+            &\hspace{3.31cm}algorithms.\\[1.5mm]
+            & $\triangleright$ Starting from Fall 2019, I will be supported by a Facebook research fellowship.\\[4mm]
+            %
+            \textsc{9/2013 -- 7/2016} & \textbf{B.Sc. in Automation and Control Engineering} at \href{http://www.polimi.it/en/english-version/}{Politecnico di Milano}.\\[.5mm]
+            & The program had a strong focus on computer science, control theory, and mathematical models, with additional courses in electronics and mechanics.\\[.5mm]
+            & I was fortunate to be advised by \href{http://www.gametheory.polimi.it/nicola-gatti.html}{Nicola Gatti}.\\[3mm]
+            %
+            %\textsc{2015} & Site Reliability Engineer Intern, Google.
+        \end{tabular}
+
+        \renewcommand{\thefootnote}{\equalcontrib}
+        \footnotetext{~Equal contribution.} 
+        \renewcommand{\thefootnote}{\arabic{footnote}}
+            
+    %\vspace{3pt}
+    \section*{\numbox{3}\bfseries\textcolor{titlecol}{\sffamily Highly-refereed conference papers }}
+        %\textcolor{black}{Conferences are the primary publication venue in Computer Science, with competitive acceptance rates of 15–30\%.}
+        %\vspace{2pt}
+        
+        \subsection*{\subsectionstyle{Algorithmic Game Theory and Optimization}}
+        \begin{enumerate}[itemsep=.5mm]
+            \setcounter{enumi}{\value{papercnt}}
+
+            \item G. Farina, C. Kroer and T. Sandholm (2019). Online Convex Optimization for Sequential Decision Processes and Extensive-Form Games.\newl In: \textit{Conference on Artificial Intelligence (AAAI)}. (Acceptance rate 16.2\%.)
+            
+           \item A. Marchesi, G. Farina, C. Kroer, N. Gatti and T. Sandholm (2019). Quasi-Perfect Stackelberg Equilibrium.\newl In: \textit{Conference on Artificial Intelligence (AAAI)}. (Acceptance rate 16.2\%.)
+
+            \item G. Farina, N. Gatti and T. Sandholm (2018). Practical Exact Algorithm for Trembling-Hand Equilibrium Refinements in Games.\newl In: \emph{Neural Information Processing Systems (NeurIPS)}. (Acceptance rate 21\%.)
+            
+
+            \item G. Farina\equalcontrib{}, A. Celli\equalcontrib{}, N. Gatti and T. Sandholm (2018). Ex ante correlation and collusion in zero-sum multi-player extensive-form games.\newl In: \emph{Neural Information Processing Systems (NeurIPS)}. (Acceptance rate 21\%.)
+            
+            \item C. Kroer, G. Farina and T. Sandholm (2018). Solving Large Sequential Games with the Excessive Gap Technique.\newl In: \emph{Neural Information Processing Systems (NeurIPS)}. (Spotlight paper, acceptance rate 3.5\%.)
+            
+            \item G. Farina, A. Marchesi, C. Kroer, N. Gatti and T. Sandholm (2018). Trembling-Hand Perfection in Extensive-Form Games with Commitment.\newl In: \textit{International Joint Conference on Artificial Intelligence (IJCAI)}. (Acceptance rate 20\%.)
+
+            \item C. Kroer, G. Farina, and T. Sandholm (2018). Robust Stackelberg Equilibria in Extensive-Form Games and Extension to Limited Lookahead.\newl In: \textit{Conference on Artificial Intelligence (AAAI)}. (Acceptance rate 25\%.)
+            
+            \item G. Farina, C. Kroer and T. Sandholm (2017). Regret Minimization in Behaviorally-Constrained Zero-Sum Games.\newl In: \textit{International Conference on Machine Learning (ICML)}.  (Acceptance rate 25\%.)
+            
+            \item C. Kroer, G. Farina and T. Sandholm (2017). Smoothing Method for Approximate Extensive-Form Perfect Equilibrium.\newl In: \textit{International Joint Conference on Artificial Intelligence (IJCAI)}. (Acceptance rate 26\%.)
+            
+            \item G. Farina and N. Gatti (2017). Extensive-Form Perfect Equilibrium Computation in Two-Player Games.\newl In: \textit{Conference on Artificial Intelligence (AAAI)}. (Acceptance rate 25\%)
+            
+            \item G. Farina and N. Gatti (2016). Ad Auctions and Cascade Model: GSP Inefficiency and Algorithms.\newl In: \textit{Conference on Artificial Intelligence (AAAI)}. (Acceptance rate 26\%.)
+        \end{enumerate}
+        \setcounter{papercnt}{\value{enumi}}
+            
+        \subsection*{\subsectionstyle{Kidney Exchange}}
+            \begin{enumerate}[itemsep=.5mm]
+                \setcounter{enumi}{\value{papercnt}}
+                \item G. Farina, J.P. Dickerson and T. Sandholm (2017). Operation Frames and Clubs in Kidney Exchange.\newl In: \textit{International Joint Conference on Artificial Intelligence (IJCAI)}. (Acceptance rate 26\%.)
+            \end{enumerate}
+            \setcounter{papercnt}{\value{enumi}}
+            
+        \subsection*{\subsectionstyle{Algorithms and Complexity}}
+           \begin{enumerate}[itemsep=.5mm]
+                \setcounter{enumi}{\value{papercnt}}
+                \item M. Cairo, G. Farina and R. Rizzi (2016). Decoding Hidden Markov Models faster than Viterbi via online matrix--vector $(\max, +)$--multiplication.\newl In: \textit{Conference on Artificial Intelligence (AAAI)}. (Acceptance rate 26\%.)
+            \end{enumerate}
+            \setcounter{papercnt}{\value{enumi}}
+                    
+    \section*{\numbox{4}\bfseries\textcolor{titlecol}{\sffamily Journal papers}}
+            \begin{enumerate}[itemsep=.5mm]
+                \setcounter{enumi}{\value{papercnt}}
+                \item G. Farina and N. Gatti (2017). Adopting the cascade model in ad auctions: efficiency bounds and truthful algorithmic mechanisms.\newl In: \textit{Journal of Artificial Intelligence Research (JAIR)}.
+            \end{enumerate}
+            \setcounter{papercnt}{\value{enumi}}
+    
+    \section*{\numbox{5}\bfseries\textcolor{titlecol}{\sffamily Refereed workshop papers}}
+            \subsection*{\subsectionstyle{Algorithmic Game Theory and Optimization}}
+            \begin{enumerate}[itemsep=.5mm]
+                \setcounter{enumi}{\value{papercnt}}
+                \item G. Farina\equalcontrib{}, A. Celli\equalcontrib{}, N. Gatti and T. Sandholm (2019). Ex ante coordination in team games.\newl In: \textit{AAAI-19 Workshop on Reinforcement Learning in Games (AAAI19-RLG)}.
+                
+                \item A. Marchesi, G. Farina, C. Kroer, N. Gatti and T. Sandholm (2019). Quasi-Perfect Stackelberg Equilibrium.\newl In: \textit{AAAI-19 Workshop on Reinforcement Learning in Games (AAAI19-RLG)}.
+                
+                \item G. Farina, C. Kroer and T. Sandholm (2019). Composability of Regret Minimizers.\newl In: \textit{AAAI-19 Workshop on Reinforcement Learning in Games (AAAI19-RLG)}.
+                
+                \item A. Marchesi, G. Farina, C. Kroer, N. Gatti and T. Sandholm (2019). Quasi-Perfect Stackelberg Equilibrium.\newl In: \textit{AAAI-19 Workshop on Reinforcement Learning in Games (AAAI19-RLG)}.
+                
+                \item G. Farina, C. Kroer and T. Sandholm (2019). Online Convex Optimization for Sequential Decision Processes and Extensive-Form Games.\newl In: \textit{AAAI-19 Workshop on Reinforcement Learning in Games (AAAI19-RLG)}.
+                
+                \item G. Farina, N. Gatti and T. Sandholm (2019). Practical Exact Algorithm for Trembling-Hand Equilibrium Refinements in Games.\newl In: \textit{AAAI-19 Workshop on Reinforcement Learning in Games (AAAI19-RLG)}.
+                
+                \item C. Kroer, G. Farina and T. Sandholm (2019). Solving Large Sequential Games with the Excessive Gap Technique.\newl In: \textit{Smooth Games Optimization and Machine Learning workshop at NeurIPS'18 (SGOML'18)}.
+                
+                \item G. Farina, N. Gatti and T. Sandholm (2018). Practical Exact Algorithm for Trembling-Hand Equilibrium Refinements in Games.\newl In: \emph{AAMAS-IJCAI Workshop on Agents and Incentives in Artificial Intelligence (AI3)}.
+
+                
+                \item G. Farina, C. Kroer and T. Sandholm (2017). Regret Minimization in Behaviorally-Constrained Zero-Sum Games.\newl In: \textit{Algorithmic Game Theory workshop at IJCAI (AGT@IJCAI)}.
+            \end{enumerate}
+            \setcounter{papercnt}{\value{enumi}}
+            
+            \subsection*{\subsectionstyle{Kidney Exchange}}
+            \begin{enumerate}[itemsep=.5mm]
+                \setcounter{enumi}{\value{papercnt}}
+                
+                \item G. Farina, J.P. Dickerson and T. Sandholm (2017). Multiple Willing Donors and Organ Clubs in Kidney Exchange.\newl In: \textit{Algorithmic Game Theory workshop at IJCAI (AGT@IJCAI)}.
+                
+                \item T. Sandholm, G. Farina, J.P. Dickerson, R. Leishman, D. Stewart, R. Formica, C. Thiessen and S. Kulkarni (2017). A Novel KPD Mechanism to Increase Transplants When Some Candidates Have Multiple Willing Donors.\newl In: \textit{American Transplantation Congress (ATC)}.
+            
+                \item G. Farina, J.P. Dickerson and T. Sandholm (2017). Inter-Club Kidney Exchange.\newl In: \textit{Workshop on AI and OR for Social Good (AIORSocGood) at AAAI-17}.
+            \end{enumerate}
+            \setcounter{papercnt}{\value{enumi}}
+   
+            \subsection*{\subsectionstyle{Algorithms and Complexity}}
+            \begin{enumerate}[itemsep=.5mm]
+                \setcounter{enumi}{\value{papercnt}}
+
+                \item G. Farina and L. Laura (2015). Dynamic subtrees queries revisited: the Depth First Tour Tree.\newl In: \textit{International Workshop on Combinatorial Algorithms (IWOCA)}. (Acceptance rate: 33\%.)
+            
+                \item G. Farina (2015). A linear time algorithm to compute the impact of all the articulation points.\newl In: \textit{Young Researcher Workshop on Automata, Languages and Programming (ICALP-YR)}.
+            \end{enumerate}
+            \setcounter{papercnt}{\value{enumi}}
+
+% \vspace{-2pt}
+    \section*{\numbox{6}\bfseries\textcolor{titlecol}{\sffamily Submissions and working papers}}
+        \begin{enumerate}[itemsep=.5mm]
+            \setcounter{enumi}{\value{papercnt}}
+
+            \item G. Farina, C. Kroer, N. Brown and T. Sandholm. Stable-Predictive Optimistic Counterfactual Regret Minimization. \emph{Submitted to ICML-2019}.
+
+            \item R. Silva\equalcontrib{}, G. Farina\equalcontrib{}, F. S. Melo, M. Veloso. A theoretical and algorithmic analysis of configurable MDPs. \emph{Submitted to ICAPS-2019}.
+
+            \item G. Farina, C. Kroer and T. Sandholm. Regret Circuits: Composability of Regret Minimizers. \emph{Submitted to ICML-2019}.
+
+            \item G. Farina, N. Gatti and T. Sandholm. Trembling Linear Programs: Algorithm and Application to Equilibrium Refinements. \emph{Working paper}.
+            
+            \item G. Farina, A. Marchesi, C. Kroer, N. Gatti and T. Sandholm. Rationality of Commitment in Extensive-Form Games. \emph{Working paper}.
+            
+            %\item G. Farina,  and T. Sandholm (2018). Extensive-Form Internal Regret. \emph{Working paper}.
+        \end{enumerate}
+        \setcounter{papercnt}{\value{enumi}}
+    
+    \section*{\numbox{7}\bfseries\textcolor{titlecol}{\sffamily Graduate coursework}}
+        \begin{enumerate}[itemsep=.5mm]
+            \item Advanced OS and Distributed Systems (Fall 2017). Instructor: \href{http://www.cs.cmu.edu/~dga/}{Dave Andersen}.
+            \item Graduate Algorithms (Spring 2017). Instructor: \href{http://www.cs.cmu.edu/~glmiller/}{Gary Miller}.
+            \item Convex Analysis (Spring 2018). Instructor: \href{https://www.cmu.edu/tepper/faculty-and-research/faculty-by-area/profiles/pena-javier.html}{Javier Peña}.
+            \item Modern Convex Optimization (Spring 2018). Instructor: \href{https://www.cmu.edu/tepper/faculty-and-research/faculty-by-area/profiles/pena-javier.html}{Javier Peña}.
+            \item Types and Programming Languages (Fall 2019). Instructor: \href{http://www.cs.cmu.edu/~fp/}{Frank Pfenning}.
+            \item  Graduate Artificial Intelligence (Spring 2019). Instructors: \href{http://zicokolter.com/}{Zico Kolter}, \href{https://www.cs.cmu.edu/~nihars/}{Nihar Shah}.
+        \end{enumerate}
+
+
+    \section*{\numbox{7}\bfseries\textcolor{titlecol}{\sffamily Work experience}}
+        \vspace{5pt}
+        %\subsection*{\subsectionstyle{Internships and work experience}}
+            \begin{tabular}{p{1in}p{5.55in}}
+                %\textsc{2016 -- now}\vspace{0mm} & I am a Research Assistant and part of the Electronic Marketplaces (EM) Lab at Carnegie Mellon University.
+                %I collaborate with the United Network for Organ Sharing (UNOS), responsible for all transplantation in the US, as part of an ongoing collaboration with the Electronic Marketplaces Lab at CMU, with the aim of developing and deploying the software backing the US national kidney exchange program.
+                %\\[2mm]
+
+                \textsc{2017, 2018}\newline\raisebox{3mm}{\includegraphics[width=2.5cm]{static/logos/optimizedlogo.png}} & Senior Enterprise Software and Optimization Engineer at Optimized Markets, Inc. I was responsible of designing, implementing, and validating an optimization-based algorithm to re-express the delivery of guaranteed and non-guaranteed advertising campaigns for a whole month of operation of a major client. The study was a success, with our devised parallel optimization-based allocator producing several hundreds million dollars in predicted yearly revenue surplus compared to the status quo.\\[2mm]
+            
+                \textsc{2015}\vspace{1mm}\newline\raisebox{-3pt}{\includegraphics[width=1.26cm]{static/logos/google_2015.pdf}} & 
+                I did a 4--month internship at the Google London office in 2015. I was a Site Reliability Engineer (SRE) intern, working on building a fine--grained pipeline debugging tool for the \href{http://research.google.com/pubs/pub41378.html}{MillWheel} stream processing framework. I deeply enjoyed my  project, and the challenges it presented, given the huge scale at which the stream computations run.\\[1mm]
+        
+                \textsc{2013 -- 2016}\vspace{1mm}\newline IOI team coach &
+                I was one of the official trainers for the Italian International Olympiads in Informatics (IOI) team. I have taught several lectures on different topics in Algorithms and Data Structures.
+                %Part of the material is available \href{https://drive.google.com/open?id=0Bz82dCddeD8ifjlBUzBaOTJ5dmhyR1I0N3F6NW4yU0xKRWE4cjFhY0VUWl9GMzNIMEQzNkU}{here} (Italian only).
+                I also contributed to the preparation of the Italian national Olympiads in Informatics as part of the scientific committee from 2013 to 2015.\\[1mm]
+            
+                \textsc{2013}\vspace{1mm}\newline \includegraphics[width=.75cm]{static/logos/IBM_logo.pdf} &
+                I took part in a 2-week work experience at IBM's Research Laboratories in Hursley, UK, sponsored by the Bank of Italy for my performance in the Italian national Olympiads in Informatics. The task of our team was to design and implement a set of APIs aimed to integrate two internal products while respecting strong industry policies at all stages.
+            \end{tabular}
+    
+    \section*{\numbox{8}\bfseries\textcolor{titlecol}{\sffamily Competitions}}
+        \vspace{5pt}
+        \subsection*{\subsectionstyle{Participation in \emph{international} competitions}}
+            \begin{tabular}{p{1in}p{5.55in}}
+                \textsc{2011 -- now} &  I like to participate in programming contests, including Codeforces, COCI, USACO, Google Code Jam.\\[.5mm]
+                \textsc{2016} &  Our team was invited to the final round of \href{http://ch24.org/}{\textsc{Ch24}} 2016, in Hungary. I had to decline the offer.\\[.5mm]
+                \textsc{2015} &  Our team was invited to the final round of \href{http://marathon24.com/}{\textsc{Marathon24}} 2015, in Poland. We had to decline the offer.\\[.5mm]
+                \textsc{2014} &  Member of one of the 30 finalist team in the final international round of \href{http://marathon24.com/}{\textsc{Marathon24}} 2014, in Gdynia, Poland. Our team reached the 13th place.\\[.5mm]
+                \textsc{2013} Ch24 &  Member of one of the 30 finalist teams in the {International \href{http://ch24.org/static/archive2013/}{\textsc{Ch24}} competition}, {Budapest, Hungary}.\\[.5mm]
+                \textsc{2013} IOI &  {International Olympiad in Informatics} (IOI) held in {Brisbane, Australia}.\\[.5mm]
+                \textsc{2012} IOI &  {International Olympiad in Informatics} (IOI) held in {Sirmione, Italy}.
+            \end{tabular}
+
+        \vspace{3pt}
+        \subsection*{\subsectionstyle{Participation in \emph{national} competitions}}
+            \begin{tabular}{p{1in}p{5.55in}}
+                \textsc{2013} & Italian national Olympiad in Mathematics, gold medal.\\[.5mm]
+                \textsc{2012} & Italian national Olympiad in Informatics, 4th place and gold medal.\\[.5mm]
+                \textsc{2012, 2013} & Italian national Team Olympiad in Mathematics, first place and gold medal for two years in a row.\\[.5mm]
+                \textsc{2011, 2012} &  Italian national Olympiad in Mathematics, achieving bronze and silver medal respectively.\\[.5mm]
+                \textsc{2011} & Italian national Olympiad in Operations Research, first place.\\[.5mm]
+                \textsc{2010, 2011} & Italian national Olympiad in Informatics, achieving bronze and silver medal respectively.
+            \end{tabular}
+    \vspace{3pt}
+    
+    \section*{\numbox{9}\bfseries\textcolor{titlecol}{\sffamily Software and Systems}}
+        \textcolor{black}{I think that software built in academic settings is as important as software developed in industry, and that it should be developed with the same level of rigor that usually pertains to industrial code.
+        %This is especially true when software provides results that are used to make decisions that affect real people, as in kidney exchange.
+        %Therefore, 
+        I believe in tests, in reproducible builds, in continuous integration, and in relying on good tooling.}\\[-2mm]
+        
+        \noindent\textcolor{black}{My internship in Google heavily defines the set of technologies I am familiar with. My primary languages are C++14 and Rust.}
+        \vspace{2mm}
+        
+        \subsection*{\subsectionstyle{Programming languages}}
+            \begin{tabular}{p{1in}p{5.55in}}
+                \textsc{C++14} & Expert-level experience with C++14 and its standard libraries.\\[.5mm]
+                \textsc{Rust} & Expert-level experience with the Rust programming language.\\[.5mm]
+                \textsc{Python} & I'm fluent in Python, and have experience with Numpy, Scipy and Matplotlib.\\[.5mm]
+                \textsc{java, kotlin} & I also have experience with Java and Kotlin.
+            \end{tabular}
+
+        \subsection*{\subsectionstyle{Scientific libraries}}
+            \begin{tabular}{p{1in}p{5.55in}}
+                \textsc{pylab} & Python's scientific stack (Numpy, Scipy, Matplotlib).\\[.5mm]
+                \textsc{cvxpy} & Convex optimization routines from Boyd's lab at Stanford.\\[.5mm]
+                \textsc{eigen} & Linear algebra library for C++.\\[.5mm]
+                \textsc{glpk} & I am familiar with GLPK and its internals, including the \texttt{ssx\_driver} (the rational simplex routines).\\[.5mm]
+                \textsc{gurobi, cplex} & I have experience with Gurobi's and CPLEX's APIs.
+            \end{tabular}
+
+        \subsection*{\subsectionstyle{Other libraries}}
+            I'm familiar with \textsc{gflags}, \textsc{docopt}, \textsc{gtest} and \textsc{glog}.
+
+        \subsection*{\subsectionstyle{Development and tooling}}
+            \begin{tabular}{p{1in}p{5.55in}}
+                \textsc{vagrant} & I usually rely on Vagrant in order to define a reference target environment when writing code.\\[.5mm]
+                \textsc{\{a,m,t,ub\}san} & I am familiar with the address/memory/thread/undefined-behavior sanitizers that are usually shipped along with modern compilers, like gcc and clang.\\[.5mm]
+                \textsc{bazel} & I usually rely on Bazel as my build system.\\[.5mm]
+                \textsc{other} & cpplint, clang-format, valgrind, gdb.
+            \end{tabular}
+\end{document}
