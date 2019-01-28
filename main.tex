@@ -18,16 +18,14 @@
 \usepackage{lmodern}
 
 
-\usepackage[pdfauthor={Gabriele Farina},
-   pdftitle={CV of Gabriele Farina},
-   pdfsubject={Detailed CV of Gabriele Farina},
+\usepackage[pdfauthor={Ragheb Rahmaniani},
+   pdftitle={CV of Ragheb Rahmaniani},
+   pdfsubject={Detailed CV of Ragheb Rahmaniani},
    colorlinks=true,
    urlcolor=colorL,
    linkcolor=colorL]{hyperref}
    
-%   \IfFileExists{lmodern.sty}%
-%   {\RequirePackage{lmodern}}%
-%   {}
+
 
 \usepackage[portrait, hoffset=0in, voffset=0cm, textwidth=6.8in, textheight=9.2in]{geometry}   % showframe
 
@@ -36,10 +34,14 @@
 
 \newcommand{\versionDate}{\monthyeardate\today}
 
+\renewcommand{\thefootnote}{\equalcontrib}
+
+\renewcommand{\thefootnote}{\arabic{footnote}}
+
 \fancyfoot{} % clear all footer fields
 \renewcommand{\headrulewidth}{0pt}
 \fancyfoot[LE,RO]{\textcolor{gray}{\thepage\ of \pageref*{LastPage}}}
-\fancyfoot[RE,LO]{\footnotesize \textcolor{gray}{Curriculum Vitae of Gabriele Farina -- \versionDate}}
+\fancyfoot[RE,LO]{\footnotesize \textcolor{gray}{Curriculum Vitae of Ragheb Rahmaniani -- \versionDate}}
 
 \newcommand{\cvline}[2]{fst: #1 snd: #2\\}
 
@@ -69,253 +71,263 @@
 \draw[black] (-2in, -1.6cm) -- (9in, -1.6cm);
 \node[anchor=west] at (0, -1.2) {\Large\sffamily\textbf{Curriculum Vitae} --- \monthyeardate\today}; 
 \end{tikzpicture}%
-	{\fontsize{34}{36}\mdseries\upshape\sffamily\bfseries Gabriele Farina}
-	
-    \vspace{2.0cm}
-    \section*{\numbox{1}\bfseries\textcolor{titlecol}{\sffamily Personal information}}
+{
+	\fontsize{34}{36}\mdseries\upshape\sffamily\bfseries Ragheb Rahmaniani
+}
+
+\vspace{1.0cm}
+
+\section*{\numbox{1}\bfseries\textcolor{titlecol}{\sffamily Personal information}}
               \begin{tabular}{rlcrl}
-                \small\textsc{Citizenship}~~~ & \small Italian &~\hspace{3.5cm}~& \small\textsc{US Visa type}~~~ & \small F-1 Student\\[.5mm]
-                \small\textsc{Email}~~~ & \small {\href{mailto:gfarina@cs.cmu.edu}{gfarina$@$cs.cmu.edu}} &&
-                \small\textsc{www}~~~ & \small \href{http://gfarina.me}{{gfarina.me}}
-                \\[.5mm]
-                \small\textsc{Phone}~~~ & \small +1\,(412)-954-8732 &&
-                %\small\textsc{Github}~~~ & \small \small\href{http://github.com/gabrfarina}{\texttt{$@$gabrfarina}}
-                %
+	               \small\textsc{USA Visa}~~~ & \small O1A and EAD card 
+	               \\[.5mm]
+	               \small\textsc{Webpage}~~~ & \small \href{https://sites.google.com/view/raghebrahmaniani/home}{{@RaghebRahmaniani }}
+	               \\[.5mm]
+	               \small\textsc{Scholar} ~~~ & \small  \small\href{https://scholar.google.com/citations?user=3V2o0Q0AAAAJ\&hl=en}{@RaghebRahmaniani}
+	               \\[.5mm]
+	               \small\textsc{Github}~~~ & \small \small\href{https://github.com/Ragheb2464}{\texttt{$@$Ragheb2464}}
+	               \\[.5mm]
+	                \small\textsc{Email}~~~ & \small {\href{mailto:ragheb.rahmaniani@gmail.com}{Ragheb.Rahmaniani@gmail.com}}  
+	                \\[.5mm]
+	                \small\textsc{Phone}~~~ & \small +1~(412)-608-8472 
               \end{tabular}
+%End of Personal Info
 
-    % \vspace{-1pt}
-     \section*{\numbox{2}\bfseries\textcolor{titlecol}{\sffamily Education}}
-        \begin{tabular}{lp{5.45in}}
-            \textsc{8/2016 -- now} & \textbf{Ph.D. Student in Computer Science} at \href{www.cmu.edu}{Carnegie Mellon University}. I am currently in my third year.\\[.5mm]
-            & I am fortunate to be advised by \href{http://cs.cmu.edu/~sandholm}{Tuomas Sandholm}, and to be part of the \href{http://www.cs.cmu.edu/~amem/}{Electronic Marketplaces Lab}.\\[1.1mm]
-            & $\triangleright$ {\underline{Research interests}}: artificial intelligence, optimization, economics and computation,\\
-            &\hspace{3.31cm}algorithms.\\[1.5mm]
-            & $\triangleright$ Starting from Fall 2019, I will be supported by a Facebook research fellowship.\\[4mm]
-            %
-            \textsc{9/2013 -- 7/2016} & \textbf{B.Sc. in Automation and Control Engineering} at \href{http://www.polimi.it/en/english-version/}{Politecnico di Milano}.\\[.5mm]
-            & The program had a strong focus on computer science, control theory, and mathematical models, with additional courses in electronics and mechanics.\\[.5mm]
-            & I was fortunate to be advised by \href{http://www.gametheory.polimi.it/nicola-gatti.html}{Nicola Gatti}.\\[3mm]
-            %
-            %\textsc{2015} & Site Reliability Engineer Intern, Google.
+\section*{\numbox{2}\bfseries\textcolor{titlecol}{\sffamily Education}}
+        \begin{tabular}{lp{5.5in}}
+        		%GT
+	            \textsc{2017 -- 2018} & \textbf{Visiting Scholar} at \href{https://www.isye.gatech.edu}{Georgia Institute of Technology}.
+	            \\[.5mm]
+	            & During my visit, I was working on  the \textit{Benders Dual Decomposition Algorithm} and  developing a black-box optimization solver for  \textit{Multi-Stage Stochastic Integer Programming} problems.\\[.5mm]
+	            & $\triangleright$ {\small\textbf{Advisor}}:  Prof. \href{https://www2.isye.gatech.edu/people/faculty/Shabbir_Ahmed/}{Shabbir Ahmed}.\\[1.1mm]
+	            & $\triangleright$ {\small\textbf{Topics}}: Stochastic Programming, Integer Programming, Decompositions, Algorithms.\\
+	            & $\triangleright$ {\small\textbf{Applications}}: Energy, Network Optimization, Planning, Optimization Software.\\[4mm]
+	            %PhD
+	            \textsc{2013 -- 2018} & \textbf{Ph.D. in Industrial Engineering} at \href{https://www.polymtl.ca/magi/}{Polytechnique of Montreal}.\\[.5mm]
+	            & The coursework was intensely  focused on the \textit{Operations Research} methodologies and my research was focused on developing novel high-performance algorithms for general MILP problems.\\[.5mm]
+	            & $\triangleright$ {\small\textbf{Advisor}}:  Prof. \href{https://www.polymtl.ca/expertises/en/gendreau-michel}{Michel Gendreau}.\\[1.1mm]
+	            & $\triangleright$ {\small\textbf{Co-Advisors}}:  Prof. \href{https://professeurs.uqam.ca/professeur?c=crainic.teodor}{Teodor Gabriel Crainic} and Prof. \href{https://professeurs.uqam.ca/professeur?c=rei.walter}{Walter Rei} \\[1.1mm]
+	            & $\triangleright$ {\small\textbf{Thesis}}: On high-performance Benders-decomposition-based exact methods with application to mixed-integer and stochastic problems.\\
+	            & $\triangleright$ {\small\textbf{GPA}}: 4.0/4.0.\\
+	            & $\triangleright$ {\small\textbf{Applications}}: Transportation and Logistics.\\[4mm]
+	            %MSc
+	            \textsc{2011 -- 2013} & \textbf{M.Sc. in Industrial Engineering} at \href{http://www.iust.ac.ir/en}{University of Science and Technology}.\\[.5mm]
+	            & The coursework had a strong focus on System Engineering and Mathematical Optimization with additional courses in Statistics and Probability.\\[.5mm]
+	            & $\triangleright$ {\small\textbf{Advisor}}:  Prof. \href{https://scholar.google.com/citations?hl=en\&user=GV4tnu4AAAAJ\&view_op=list_works\&sortby=pubdate}{Mohammad-Ali Shafia}.\\[1.1mm]
+	            & $\triangleright$ {\small\textbf{Thesis}}: R\&D performance measurement in public sector: An Operations Research Perspective.\\
+	            & $\triangleright$ {\small\textbf{GPA}}: 16.23/20.0\\
+	            & $\triangleright$ {\small\textbf{Applications}}: Management, Analytics, Balanced Scorecards.\\[4mm]
+				%BSc
+				\textsc{2007 -- 2011} & \textbf{B.Sc. in Industrial Engineering} at \href{http://www.iust.ac.ir/en}{University of Science and Technology}.\\[.5mm]
+				& The coursework had a strong focus on Math, Project Management, Technology Management,  with additional courses in Mechanics. \\[.5mm]
+				& $\triangleright$ {\small\textbf{Advisor}}:  Prof. \href{http://ie.iust.ac.ir/page.php?slct_pg_id=5442\&sid=61\&slc_lang=en}{Mohammad-Saidi Mehrabad}.\\[1.1mm]
+				& $\triangleright$ {\small\textbf{Final Project}}: Robust hub location-allocation problems and meta-heuristic solution approaches.\\
+				& $\triangleright$ {\small\textbf{GPA}}: 17.45/20.0\\
+				& $\triangleright$ {\small\textbf{Applications}}: Airline Scheduling, Transportation.
         \end{tabular}
+%End of Education
 
-        \renewcommand{\thefootnote}{\equalcontrib}
-        \footnotetext{~Equal contribution.} 
-        \renewcommand{\thefootnote}{\arabic{footnote}}
-            
-    %\vspace{3pt}
-    \section*{\numbox{3}\bfseries\textcolor{titlecol}{\sffamily Highly-refereed conference papers }}
-        %\textcolor{black}{Conferences are the primary publication venue in Computer Science, with competitive acceptance rates of 15–30\%.}
-        %\vspace{2pt}
-        
-        \subsection*{\subsectionstyle{Algorithmic Game Theory and Optimization}}
-        \begin{enumerate}[itemsep=.5mm]
-            \setcounter{enumi}{\value{papercnt}}
 
-            \item G. Farina, C. Kroer and T. Sandholm (2019). Online Convex Optimization for Sequential Decision Processes and Extensive-Form Games.\newl In: \textit{Conference on Artificial Intelligence (AAAI)}. (Acceptance rate 16.2\%.)
-            
-           \item A. Marchesi, G. Farina, C. Kroer, N. Gatti and T. Sandholm (2019). Quasi-Perfect Stackelberg Equilibrium.\newl In: \textit{Conference on Artificial Intelligence (AAAI)}. (Acceptance rate 16.2\%.)
 
-            \item G. Farina, N. Gatti and T. Sandholm (2018). Practical Exact Algorithm for Trembling-Hand Equilibrium Refinements in Games.\newl In: \emph{Neural Information Processing Systems (NeurIPS)}. (Acceptance rate 21\%.)
+
+\section*{\numbox{7}\bfseries\textcolor{titlecol}{\sffamily Work experience}}
+\vspace{5pt}
+			\begin{tabular}{p{1in}p{5.55in}}
+				
+						\textsc{2018--now}\newline\raisebox{3mm}{\includegraphics[width=2.5cm]{static/logos/optimizedlogo.png}} & 
+												Full Time Applied Research Engineer at Optimized Markets, Inc. 
+												I am responsible for designing, implementing, and validating  optimization-based algorithms, software design and development and testing, configuring for delivery through a third party cloud service,  and monitoring and managing pilot projects.	I also interact with the customers regarding design requirements as well as providing them help and technical support. My duties  also include conducting research, publishing papers, and presenting at conferences.\\[2mm]
+						
+						\textsc{2017--2018}\vspace{1mm}\newline\raisebox{-3pt}{\includegraphics[width=2.56cm]{static/logos/ISYE}} &
+												Part Time Optimization Software Developer at department of Industrial and Systems Engineering at Georgia Institute of Technology. 
+												I was responsible of re-designing, improving, testing, and extending an optimization  package for multi-stage stochastic integer problems. I was also responsible for using the solver on new problems and provide analytical insights. \\[1mm]
+						
+						\textsc{2012--2013}\vspace{1mm}\newline \includegraphics[width=2.75cm]{static/logos/UoK} &
+												Teacher Assistant at Kurdistan University.
+												\begin{enumerate}
+													\item Industrial Plants Layout Planning: I was responsible of  holding problem solving sessions, giving and correcting assignments, taking quizzes (short exams);
+													\item Engineering Economics: I was responsible of holding problem solving sessions, giving and correcting assignments, taking the midterm and instructing the course for 2 sessions due to travel-absence of the professor.
+												\end{enumerate}
+											 \\[1mm]
+						\textsc{2012}\vspace{1mm}\newline \includegraphics[width=1.5cm]{static/logos/TPOI} &
+										I was involved in a project entitled \textit{Feasibility Study and Financial Appraisal to Construct an Export Terminal in Karaj Province} for 2 months. 
+										I was responsible of providing finical appraisal reports using COMFAR software, analysis the results, and write reports. \\[1mm]
+						
+						\textsc{2011--2012}\vspace{1mm}\newline \includegraphics[width=2.75cm]{static/logos/Mobien} &
+											Part Time Statistical Analyst at Department of Future Trades of Mobin Sarmayeh.
+											I was responsible of gathering, cleaning, and analyzing   stock  data using statistical and neural network software. \\[1mm]
+											
+						\textsc{2010--2012}\vspace{1mm}\newline \includegraphics[width=1.5cm]{static/logos/IUST} &
+										Part Time Undergraduate Academic Consulter  at University of Science and Technology. 
+										I was helping undergrade students with their academic curricula by providing advices on the courses according to their interests and goals. \\[1mm]
+										
+						\textsc{2010}\vspace{1mm}\newline \includegraphics[width=1.95cm]{static/logos/ABSAL} &
+										Summer Intern  at Absal Inc. 
+										I was responsible of detecting the bottlenecks on the Air Conditioning assembly  line and propose alternative  layouts in order to maximize the daily outputs. \\[1mm]
+						
+						\textsc{2009} \vspace{1mm} \newline \includegraphics[width=1.4cm]{static/logos/RAI} & 
+										I was involved in a project entitled \textit{Sources of Delay in Iranian Railway Transportation System: Investigation, Identification, and Solution Strategies} for 4 months. My responsibilities were to write an up-to-date  report and a synthesis of rail freight transportation in the European countries and highlight the main differences with the current management system at Iran.  
+
+						
+			\end{tabular}
+
+%End of Work Expereince
             
 
-            \item G. Farina\equalcontrib{}, A. Celli\equalcontrib{}, N. Gatti and T. Sandholm (2018). Ex ante correlation and collusion in zero-sum multi-player extensive-form games.\newl In: \emph{Neural Information Processing Systems (NeurIPS)}. (Acceptance rate 21\%.)
-            
-            \item C. Kroer, G. Farina and T. Sandholm (2018). Solving Large Sequential Games with the Excessive Gap Technique.\newl In: \emph{Neural Information Processing Systems (NeurIPS)}. (Spotlight paper, acceptance rate 3.5\%.)
-            
-            \item G. Farina, A. Marchesi, C. Kroer, N. Gatti and T. Sandholm (2018). Trembling-Hand Perfection in Extensive-Form Games with Commitment.\newl In: \textit{International Joint Conference on Artificial Intelligence (IJCAI)}. (Acceptance rate 20\%.)
-
-            \item C. Kroer, G. Farina, and T. Sandholm (2018). Robust Stackelberg Equilibria in Extensive-Form Games and Extension to Limited Lookahead.\newl In: \textit{Conference on Artificial Intelligence (AAAI)}. (Acceptance rate 25\%.)
-            
-            \item G. Farina, C. Kroer and T. Sandholm (2017). Regret Minimization in Behaviorally-Constrained Zero-Sum Games.\newl In: \textit{International Conference on Machine Learning (ICML)}.  (Acceptance rate 25\%.)
-            
-            \item C. Kroer, G. Farina and T. Sandholm (2017). Smoothing Method for Approximate Extensive-Form Perfect Equilibrium.\newl In: \textit{International Joint Conference on Artificial Intelligence (IJCAI)}. (Acceptance rate 26\%.)
-            
-            \item G. Farina and N. Gatti (2017). Extensive-Form Perfect Equilibrium Computation in Two-Player Games.\newl In: \textit{Conference on Artificial Intelligence (AAAI)}. (Acceptance rate 25\%)
-            
-            \item G. Farina and N. Gatti (2016). Ad Auctions and Cascade Model: GSP Inefficiency and Algorithms.\newl In: \textit{Conference on Artificial Intelligence (AAAI)}. (Acceptance rate 26\%.)
-        \end{enumerate}
-        \setcounter{papercnt}{\value{enumi}}
-            
-        \subsection*{\subsectionstyle{Kidney Exchange}}
-            \begin{enumerate}[itemsep=.5mm]
-                \setcounter{enumi}{\value{papercnt}}
-                \item G. Farina, J.P. Dickerson and T. Sandholm (2017). Operation Frames and Clubs in Kidney Exchange.\newl In: \textit{International Joint Conference on Artificial Intelligence (IJCAI)}. (Acceptance rate 26\%.)
-            \end{enumerate}
-            \setcounter{papercnt}{\value{enumi}}
-            
-        \subsection*{\subsectionstyle{Algorithms and Complexity}}
-           \begin{enumerate}[itemsep=.5mm]
-                \setcounter{enumi}{\value{papercnt}}
-                \item M. Cairo, G. Farina and R. Rizzi (2016). Decoding Hidden Markov Models faster than Viterbi via online matrix--vector $(\max, +)$--multiplication.\newl In: \textit{Conference on Artificial Intelligence (AAAI)}. (Acceptance rate 26\%.)
-            \end{enumerate}
-            \setcounter{papercnt}{\value{enumi}}
+\section*{\numbox{3}\bfseries\textcolor{titlecol}{\sffamily Journal Publications }}       
+        \subsection*{\subsectionstyle{Exact  Solution Algorithms}}
+	        \begin{enumerate}[itemsep=.5mm]
+					\item 
+								\textbf{Rahmaniani, R.}, Ahmed, S., Crainic, T.G., Gendreau, M., and Rei, W., "The Benders Dual Decomposition method", \textit{To appear in Operations Research}.
+					\item 
+								\textbf{Rahmaniani, R.}, Crainic, T.G., Gendreau, M., and Rei, W., "Accelerating the Benders decomposition method: Application to stochastic network design problems", \textit{SIAM Journal on Optimization}, 2018, Vol. 28(1), pp: 875–903.
+					\item
+								 \textbf{Rahmaniani, R.}, Crainic, T.G., Gendreau, M., and Rei, W., "The Benders decomposition algorithm: A literature review", \textit{European Journal of Operational Research}, 2017, Vol. 259(3), pp: 801-817.
+			\end{enumerate}
+		\subsection*{\subsectionstyle{Meta-Heuristic  Solution Algorithms}}
+			\begin{enumerate}[itemsep=.5mm]
+				\item 
+							Ghaderi A. and \textbf{Rahmaniani, R.}, "Meta-heuristic solution approaches for robust single allocation p-hub median problem with stochastic demands and travel times", \textit{The International Journal of Advanced Manufacturing Technology}. 2016, Vol. 82(9-12), pp: 1627-1647.
+				\item 
+							\textbf{Rahmaniani, R.} and Ghaderi A., "An algorithm with different exploration mechanisms: Experimental results to capacitated facility location/network design problem", \textit{Expert Systems with Applications}. 2015, Vol. 42(7), pp: 3790-3800.
+				\item
+							 \textbf{Rahmaniani, R.}, Rahmaniani G., and Jabbarzadeh, A., "Variable neighborhood search based evolutionary algorithm and several approximations for balanced location–allocation design problem", \textit{The International Journal of Advanced Manufacturing Technology}. 2014, Vol. 72(1-4), pp: 145-159.
+				\item 
+							Ghaderi, A., Jabal-ameli, M.S., Barzinpour, F., and \textbf{Rahmaniani, R.}, "An Efficient Hybrid Particle Swarm Optimization Algorithm for Solving the Uncapacitated Continuous Location-Allocation", \textit{Networks and Spatial Economics}. 2012, Vol. 12(3), pp: 421-439.
+			\end{enumerate}
+		\subsection*{\subsectionstyle{Mathematical Modeling}}
+			\begin{enumerate}[itemsep=.5mm]
+           		 \item 
+           		 			\textbf{Rahmaniani, R.} and Ghaderi, A., “A combined facility location and network design problem with multi-type of capacitated links”, \textit{Applied Mathematical Modeling}. 2013, Vol. 37(9), pp: 6400–6414.	
+           		 \item
+           		 			\textbf{Rahmaniani, R.}, Saidi-Mehrabad, M., and Ashouri, H., “Robust Capacitated Facility Location Problem: Optimization Model and Solution Algorithms”, \textit{Journal of Uncertain Systems}. 2013, Vol. 7(1), pp: 22-35.
+       		 \end{enumerate}
+		\subsection*{\subsectionstyle{Parallel Computing}}
+				\begin{enumerate}[itemsep=.5mm]
+					\item 
+								\textbf{Rahmaniani, R.}, Crainic, T.G., Gendreau, M., and Rei, W., "Asynchronous Benders decomposition method". \textit{Publication CIRRELT-2018-07}, Centre de recherche sur les transports, Universit\'e de Montr\'eal, Montr\'eal, QC, Canada. 
+				\end{enumerate}
+		\subsection*{\subsectionstyle{Nonlinear Optimization}}
+		\begin{enumerate}[itemsep=.5mm]
+			\item 
+					\textbf{Rahmaniani, R.}, Sadjadi, S.J.,    Shafia, M.A., and Rahmaniyan, N., "The optimal pricing model in an uncertain and competitive environment: using possibilitic geometric programming approach". \textit{African Journal of Business Management}. 2012, Vol 6 (46), pp: 11565-11574.
+		\end{enumerate}
+	
+	
+\section*{\numbox{3}\bfseries\textcolor{titlecol}{\sffamily Conference Presentations (Proceedings/Abstracts) }}    
+		\begin{enumerate}
+			\item 
+				\textbf{Rahmaniani, R.}\footnote{Session Chair}, Ahmed, S., Crainic, T.G., Rei, W., and Gendreau, M., "A decomposition method for mixed-integer problems", \textit{INFORMS Optimization Society Conference}, Denver, USA, (March 2018).
+			\item 
+				\textbf{Rahmaniani, R.}\footnote{Session Chair}, Crainic, T.G., Rei, W., and Gendreau, M., "Parallel Benders decomposition method for two-stage stochastic integer programs", \textit{INFORMS Annual Meeting}, Houston, USA, (October 2017).
+			\item 
+					\textbf{Rahmaniani, R.}, Crainic, T.G., Rei, W., and Gendreau, M., "An efficient branch-and-Benders-cut method for two-stage stochastic network design problems", \textit{Triennial Symposium on Transportation Analysis} (TRISTAN IX), Aruba, (June 2016), pp: 62-63.
+			\item 
+					\textbf{Rahmaniani, R.}\footnote{Session Chair}, Crainic, T.G., Gendreau, M., and Rei, W., "Parallel L-shaped method to solve stochastic capacitated network design problem", \textit{CORS/INFORMS International Conference}, Montréal-Canada, (June 2015).
+			\item 
+					\textbf{Rahmaniani, R.}, Saidi-Mehrabad, M., Rahmaniani, M. and Barzinpour, F., "Minimizing the transportation cost of delivery companies with uncertain demands and length edge", \textit{The 8th International Industrial Engineering Conference, Tehran-Iran}, (February 2012), pp: 189-195.
+			\item 
+					Shafia, M. A., \textbf{Rahmaniani, R.}, Rezai, A., and Rahmaniani, M., "Robust optimization model for the capacitated facility location and transportation network design problem",\textit{ International Conference on Industrial Engineering and Operations Management}, Istanbul-Turkey, (July 2012), pp: 68-74.
+			\item
+				\textbf{	Rahmaniani, R.}, Ghaderi, A., Jabal-Ameli, M.S., and Bevrani, B., "Stochastic Maximum Covering Facility Location and Network Design", \textit{The 4th International Conference of Iranian Operations Research Society}, Gilan-Iran, (March 2011), pp: 297-300.
+		\end{enumerate}
                     
-    \section*{\numbox{4}\bfseries\textcolor{titlecol}{\sffamily Journal papers}}
-            \begin{enumerate}[itemsep=.5mm]
-                \setcounter{enumi}{\value{papercnt}}
-                \item G. Farina and N. Gatti (2017). Adopting the cascade model in ad auctions: efficiency bounds and truthful algorithmic mechanisms.\newl In: \textit{Journal of Artificial Intelligence Research (JAIR)}.
-            \end{enumerate}
-            \setcounter{papercnt}{\value{enumi}}
-    
-    \section*{\numbox{5}\bfseries\textcolor{titlecol}{\sffamily Refereed workshop papers}}
-            \subsection*{\subsectionstyle{Algorithmic Game Theory and Optimization}}
-            \begin{enumerate}[itemsep=.5mm]
-                \setcounter{enumi}{\value{papercnt}}
-                \item G. Farina\equalcontrib{}, A. Celli\equalcontrib{}, N. Gatti and T. Sandholm (2019). Ex ante coordination in team games.\newl In: \textit{AAAI-19 Workshop on Reinforcement Learning in Games (AAAI19-RLG)}.
-                
-                \item A. Marchesi, G. Farina, C. Kroer, N. Gatti and T. Sandholm (2019). Quasi-Perfect Stackelberg Equilibrium.\newl In: \textit{AAAI-19 Workshop on Reinforcement Learning in Games (AAAI19-RLG)}.
-                
-                \item G. Farina, C. Kroer and T. Sandholm (2019). Composability of Regret Minimizers.\newl In: \textit{AAAI-19 Workshop on Reinforcement Learning in Games (AAAI19-RLG)}.
-                
-                \item A. Marchesi, G. Farina, C. Kroer, N. Gatti and T. Sandholm (2019). Quasi-Perfect Stackelberg Equilibrium.\newl In: \textit{AAAI-19 Workshop on Reinforcement Learning in Games (AAAI19-RLG)}.
-                
-                \item G. Farina, C. Kroer and T. Sandholm (2019). Online Convex Optimization for Sequential Decision Processes and Extensive-Form Games.\newl In: \textit{AAAI-19 Workshop on Reinforcement Learning in Games (AAAI19-RLG)}.
-                
-                \item G. Farina, N. Gatti and T. Sandholm (2019). Practical Exact Algorithm for Trembling-Hand Equilibrium Refinements in Games.\newl In: \textit{AAAI-19 Workshop on Reinforcement Learning in Games (AAAI19-RLG)}.
-                
-                \item C. Kroer, G. Farina and T. Sandholm (2019). Solving Large Sequential Games with the Excessive Gap Technique.\newl In: \textit{Smooth Games Optimization and Machine Learning workshop at NeurIPS'18 (SGOML'18)}.
-                
-                \item G. Farina, N. Gatti and T. Sandholm (2018). Practical Exact Algorithm for Trembling-Hand Equilibrium Refinements in Games.\newl In: \emph{AAMAS-IJCAI Workshop on Agents and Incentives in Artificial Intelligence (AI3)}.
-
-                
-                \item G. Farina, C. Kroer and T. Sandholm (2017). Regret Minimization in Behaviorally-Constrained Zero-Sum Games.\newl In: \textit{Algorithmic Game Theory workshop at IJCAI (AGT@IJCAI)}.
-            \end{enumerate}
-            \setcounter{papercnt}{\value{enumi}}
-            
-            \subsection*{\subsectionstyle{Kidney Exchange}}
-            \begin{enumerate}[itemsep=.5mm]
-                \setcounter{enumi}{\value{papercnt}}
-                
-                \item G. Farina, J.P. Dickerson and T. Sandholm (2017). Multiple Willing Donors and Organ Clubs in Kidney Exchange.\newl In: \textit{Algorithmic Game Theory workshop at IJCAI (AGT@IJCAI)}.
-                
-                \item T. Sandholm, G. Farina, J.P. Dickerson, R. Leishman, D. Stewart, R. Formica, C. Thiessen and S. Kulkarni (2017). A Novel KPD Mechanism to Increase Transplants When Some Candidates Have Multiple Willing Donors.\newl In: \textit{American Transplantation Congress (ATC)}.
-            
-                \item G. Farina, J.P. Dickerson and T. Sandholm (2017). Inter-Club Kidney Exchange.\newl In: \textit{Workshop on AI and OR for Social Good (AIORSocGood) at AAAI-17}.
-            \end{enumerate}
-            \setcounter{papercnt}{\value{enumi}}
-   
-            \subsection*{\subsectionstyle{Algorithms and Complexity}}
-            \begin{enumerate}[itemsep=.5mm]
-                \setcounter{enumi}{\value{papercnt}}
-
-                \item G. Farina and L. Laura (2015). Dynamic subtrees queries revisited: the Depth First Tour Tree.\newl In: \textit{International Workshop on Combinatorial Algorithms (IWOCA)}. (Acceptance rate: 33\%.)
-            
-                \item G. Farina (2015). A linear time algorithm to compute the impact of all the articulation points.\newl In: \textit{Young Researcher Workshop on Automata, Languages and Programming (ICALP-YR)}.
-            \end{enumerate}
-            \setcounter{papercnt}{\value{enumi}}
-
-% \vspace{-2pt}
-    \section*{\numbox{6}\bfseries\textcolor{titlecol}{\sffamily Submissions and working papers}}
+\section*{\numbox{3}\bfseries\textcolor{titlecol}{\sffamily  Invited Talks }}                  
+      \begin{enumerate}
+      	\item The Benders decomposition method and stochastic network design problems, CIRRELT/GERAD/MORSC Joint Seminars, Montreal, Canada, February 2017.
+      \end{enumerate}
+  \section*{\numbox{6}\bfseries\textcolor{titlecol}{\sffamily Articles  in Progress}}
         \begin{enumerate}[itemsep=.5mm]
-            \setcounter{enumi}{\value{papercnt}}
-
-            \item G. Farina, C. Kroer, N. Brown and T. Sandholm. Stable-Predictive Optimistic Counterfactual Regret Minimization. \emph{Submitted to ICML-2019}.
-
-            \item R. Silva\equalcontrib{}, G. Farina\equalcontrib{}, F. S. Melo, M. Veloso. A theoretical and algorithmic analysis of configurable MDPs. \emph{Submitted to ICAPS-2019}.
-
-            \item G. Farina, C. Kroer and T. Sandholm. Regret Circuits: Composability of Regret Minimizers. \emph{Submitted to ICML-2019}.
-
-            \item G. Farina, N. Gatti and T. Sandholm. Trembling Linear Programs: Algorithm and Application to Equilibrium Refinements. \emph{Working paper}.
-            
-            \item G. Farina, A. Marchesi, C. Kroer, N. Gatti and T. Sandholm. Rationality of Commitment in Extensive-Form Games. \emph{Working paper}.
-            
-            %\item G. Farina,  and T. Sandholm (2018). Extensive-Form Internal Regret. \emph{Working paper}.
+            \item 
+            		\textbf{Rahmaniani, R.}, Hewit, M., Rei, W., Wong, R., "On the generation of the Pareto-optimal cuts".
+			\item 
+					\textbf{Rahmaniani, R.}, "Fast and accurate decomposition heuristics for MILPs".
+		   \item 
+					\textbf{Rahmaniani, R.}, "Redesigning the Benders decomposition for high dimensional integer programs".
+		  \item 
+					\textbf{Rahmaniani, R.}, and Ahmed, S., "The Benders dual decomposition method for problems with integer second-stage variables".
         \end{enumerate}
         \setcounter{papercnt}{\value{enumi}}
-    
-    \section*{\numbox{7}\bfseries\textcolor{titlecol}{\sffamily Graduate coursework}}
-        \begin{enumerate}[itemsep=.5mm]
-            \item Advanced OS and Distributed Systems (Fall 2017). Instructor: \href{http://www.cs.cmu.edu/~dga/}{Dave Andersen}.
-            \item Graduate Algorithms (Spring 2017). Instructor: \href{http://www.cs.cmu.edu/~glmiller/}{Gary Miller}.
-            \item Convex Analysis (Spring 2018). Instructor: \href{https://www.cmu.edu/tepper/faculty-and-research/faculty-by-area/profiles/pena-javier.html}{Javier Peña}.
-            \item Modern Convex Optimization (Spring 2018). Instructor: \href{https://www.cmu.edu/tepper/faculty-and-research/faculty-by-area/profiles/pena-javier.html}{Javier Peña}.
-            \item Types and Programming Languages (Fall 2019). Instructor: \href{http://www.cs.cmu.edu/~fp/}{Frank Pfenning}.
-            \item  Graduate Artificial Intelligence (Spring 2019). Instructors: \href{http://zicokolter.com/}{Zico Kolter}, \href{https://www.cs.cmu.edu/~nihars/}{Nihar Shah}.
-        \end{enumerate}
+%End of Publications
+
+\section*{\numbox{6}\bfseries\textcolor{titlecol}{\sffamily Reviewer  for Journals and Conferences}}
+\begin{tabular}{lp{6.5in}}
+	   & Operations Research, Mathematics of Operations Research, SIAM Journal on Optimization, Annals of Operations Research; Journal of the Operational Research Society; Applied Mathematical Modeling; Expert Systems with Applications; Soft Computing; Mathematical Problems in Engineering; African Journal of Business Management; 3rd International Conference on Industrial Engineering and Operations Management (IEOM, 2012).
+ \end{tabular}
+%End of Reviewership
+
+\section*{\numbox{6}\bfseries\textcolor{titlecol}{\sffamily Honors and Awards}}
+
+		\begin{tabular}{lp{5.95in}}
+			\textsc{2016} & International Internship Fellowship, FRQNT. \\[1mm]
+			\textsc{2016} & Excellence Award (Bourses d'excellence), CIRRELT. \\[1mm] 
+			\textsc{2014} & Excellence Award (Bourses d'excellence), CIRRELT. \\[1mm] 
+			\textsc{2012--2013} & Graduate Students Fellowship, National R\&D Institute,  Iran.\\[1mm]
+			\textsc{2012--2013} & M.Sc. Exceptional Researchers Award, University of Science and Technology.\\[1mm]
+			\textsc{2011--2013} & Member of  National Elites Foundation (Bonyad Melli Nokhbegan), Iran.\\[1mm]
+			\textsc{2009--2011} & B.Sc. Exceptional Talents Award,  University of Science and Technology.\\[1mm]
+			\textsc{2007--2011} & Ranked 1$^{th}$ in undergraduate studies for all semesters.\\[1mm]
+				\textsc{2007} & Ranked in the top 1\% among more than 400,000 competitors in National University Entrance Exam, Iran.\\[1mm]
+		\end{tabular}
 
 
-    \section*{\numbox{7}\bfseries\textcolor{titlecol}{\sffamily Work experience}}
-        \vspace{5pt}
-        %\subsection*{\subsectionstyle{Internships and work experience}}
-            \begin{tabular}{p{1in}p{5.55in}}
-                %\textsc{2016 -- now}\vspace{0mm} & I am a Research Assistant and part of the Electronic Marketplaces (EM) Lab at Carnegie Mellon University.
-                %I collaborate with the United Network for Organ Sharing (UNOS), responsible for all transplantation in the US, as part of an ongoing collaboration with the Electronic Marketplaces Lab at CMU, with the aim of developing and deploying the software backing the US national kidney exchange program.
-                %\\[2mm]
 
-                \textsc{2017, 2018}\newline\raisebox{3mm}{\includegraphics[width=2.5cm]{static/logos/optimizedlogo.png}} & Senior Enterprise Software and Optimization Engineer at Optimized Markets, Inc. I was responsible of designing, implementing, and validating an optimization-based algorithm to re-express the delivery of guaranteed and non-guaranteed advertising campaigns for a whole month of operation of a major client. The study was a success, with our devised parallel optimization-based allocator producing several hundreds million dollars in predicted yearly revenue surplus compared to the status quo.\\[2mm]
-            
-                \textsc{2015}\vspace{1mm}\newline\raisebox{-3pt}{\includegraphics[width=1.26cm]{static/logos/google_2015.pdf}} & 
-                I did a 4--month internship at the Google London office in 2015. I was a Site Reliability Engineer (SRE) intern, working on building a fine--grained pipeline debugging tool for the \href{http://research.google.com/pubs/pub41378.html}{MillWheel} stream processing framework. I deeply enjoyed my  project, and the challenges it presented, given the huge scale at which the stream computations run.\\[1mm]
+
+    \section*{\numbox{7}\bfseries\textcolor{titlecol}{\sffamily Graduate Coursework}}
+			\begin{tabular}{p{0.1in}p{6.55in}}
+				
+				\textsc{} & 
+									Decision Making with Multiple Criteria,  Statistical Methods,  Advanced Engineering Economy,  Mathematical Programming,  Logistics and Transportation Network Design, Graph Theory,  Integer Programming,  Stochastic Optimization.\\[1mm]
+
+			\end{tabular}
+
+
+
+
+\section*{\numbox{9}\bfseries\textcolor{titlecol}{\sffamily Software and Systems}}
+        	\subsection*{\subsectionstyle{Programming Languages}}
+		            \begin{tabular}{p{5in}p{5.55in}}
+		                \textsc{C++17, Python, Ruby on Rails, JavaScript} & \\[.5mm]
+		            \end{tabular}
         
-                \textsc{2013 -- 2016}\vspace{1mm}\newline IOI team coach &
-                I was one of the official trainers for the Italian International Olympiads in Informatics (IOI) team. I have taught several lectures on different topics in Algorithms and Data Structures.
-                %Part of the material is available \href{https://drive.google.com/open?id=0Bz82dCddeD8ifjlBUzBaOTJ5dmhyR1I0N3F6NW4yU0xKRWE4cjFhY0VUWl9GMzNIMEQzNkU}{here} (Italian only).
-                I also contributed to the preparation of the Italian national Olympiads in Informatics as part of the scientific committee from 2013 to 2015.\\[1mm]
-            
-                \textsc{2013}\vspace{1mm}\newline \includegraphics[width=.75cm]{static/logos/IBM_logo.pdf} &
-                I took part in a 2-week work experience at IBM's Research Laboratories in Hursley, UK, sponsored by the Bank of Italy for my performance in the Italian national Olympiads in Informatics. The task of our team was to design and implement a set of APIs aimed to integrate two internal products while respecting strong industry policies at all stages.
-            \end{tabular}
+        \subsection*{\subsectionstyle{Cloud Computing}}
+		        \begin{tabular}{p{5in}p{5.55in}}
+		        	\textsc{AWS} & \\[.5mm]
+		        \end{tabular}
     
-    \section*{\numbox{8}\bfseries\textcolor{titlecol}{\sffamily Competitions}}
-        \vspace{5pt}
-        \subsection*{\subsectionstyle{Participation in \emph{international} competitions}}
-            \begin{tabular}{p{1in}p{5.55in}}
-                \textsc{2011 -- now} &  I like to participate in programming contests, including Codeforces, COCI, USACO, Google Code Jam.\\[.5mm]
-                \textsc{2016} &  Our team was invited to the final round of \href{http://ch24.org/}{\textsc{Ch24}} 2016, in Hungary. I had to decline the offer.\\[.5mm]
-                \textsc{2015} &  Our team was invited to the final round of \href{http://marathon24.com/}{\textsc{Marathon24}} 2015, in Poland. We had to decline the offer.\\[.5mm]
-                \textsc{2014} &  Member of one of the 30 finalist team in the final international round of \href{http://marathon24.com/}{\textsc{Marathon24}} 2014, in Gdynia, Poland. Our team reached the 13th place.\\[.5mm]
-                \textsc{2013} Ch24 &  Member of one of the 30 finalist teams in the {International \href{http://ch24.org/static/archive2013/}{\textsc{Ch24}} competition}, {Budapest, Hungary}.\\[.5mm]
-                \textsc{2013} IOI &  {International Olympiad in Informatics} (IOI) held in {Brisbane, Australia}.\\[.5mm]
-                \textsc{2012} IOI &  {International Olympiad in Informatics} (IOI) held in {Sirmione, Italy}.
-            \end{tabular}
+   	  	\subsection*{\subsectionstyle{Optimization  APIs}}
+			    \begin{tabular}{p{5in}p{5.55in}}
+			    	\textsc{CPLEX, GUROBI, GAMS, BARON} & \\[.5mm]
+			    \end{tabular}
+		 \subsection*{\subsectionstyle{Parallelization Libraries }}
+				\begin{tabular}{p{5in}p{5.55in}}
+					\textsc{Message Passing Interface, Boost Threads, Protocol Buffers} & \\[.5mm]
+				\end{tabular}
 
-        \vspace{3pt}
-        \subsection*{\subsectionstyle{Participation in \emph{national} competitions}}
-            \begin{tabular}{p{1in}p{5.55in}}
-                \textsc{2013} & Italian national Olympiad in Mathematics, gold medal.\\[.5mm]
-                \textsc{2012} & Italian national Olympiad in Informatics, 4th place and gold medal.\\[.5mm]
-                \textsc{2012, 2013} & Italian national Team Olympiad in Mathematics, first place and gold medal for two years in a row.\\[.5mm]
-                \textsc{2011, 2012} &  Italian national Olympiad in Mathematics, achieving bronze and silver medal respectively.\\[.5mm]
-                \textsc{2011} & Italian national Olympiad in Operations Research, first place.\\[.5mm]
-                \textsc{2010, 2011} & Italian national Olympiad in Informatics, achieving bronze and silver medal respectively.
-            \end{tabular}
-    \vspace{3pt}
-    
-    \section*{\numbox{9}\bfseries\textcolor{titlecol}{\sffamily Software and Systems}}
-        \textcolor{black}{I think that software built in academic settings is as important as software developed in industry, and that it should be developed with the same level of rigor that usually pertains to industrial code.
-        %This is especially true when software provides results that are used to make decisions that affect real people, as in kidney exchange.
-        %Therefore, 
-        I believe in tests, in reproducible builds, in continuous integration, and in relying on good tooling.}\\[-2mm]
-        
-        \noindent\textcolor{black}{My internship in Google heavily defines the set of technologies I am familiar with. My primary languages are C++14 and Rust.}
-        \vspace{2mm}
-        
-        \subsection*{\subsectionstyle{Programming languages}}
-            \begin{tabular}{p{1in}p{5.55in}}
-                \textsc{C++14} & Expert-level experience with C++14 and its standard libraries.\\[.5mm]
-                \textsc{Rust} & Expert-level experience with the Rust programming language.\\[.5mm]
-                \textsc{Python} & I'm fluent in Python, and have experience with Numpy, Scipy and Matplotlib.\\[.5mm]
-                \textsc{java, kotlin} & I also have experience with Java and Kotlin.
-            \end{tabular}
+     	\subsection*{\subsectionstyle{Useful Libraries}}
+				\begin{tabular}{p{5in}p{5.55in}}
+					\textsc{DOCOPT,  SPDLOG, OPENPYXL, TikZ, OSI} & \\[.5mm]
+				\end{tabular}
 
-        \subsection*{\subsectionstyle{Scientific libraries}}
-            \begin{tabular}{p{1in}p{5.55in}}
-                \textsc{pylab} & Python's scientific stack (Numpy, Scipy, Matplotlib).\\[.5mm]
-                \textsc{cvxpy} & Convex optimization routines from Boyd's lab at Stanford.\\[.5mm]
-                \textsc{eigen} & Linear algebra library for C++.\\[.5mm]
-                \textsc{glpk} & I am familiar with GLPK and its internals, including the \texttt{ssx\_driver} (the rational simplex routines).\\[.5mm]
-                \textsc{gurobi, cplex} & I have experience with Gurobi's and CPLEX's APIs.
-            \end{tabular}
-
-        \subsection*{\subsectionstyle{Other libraries}}
-            I'm familiar with \textsc{gflags}, \textsc{docopt}, \textsc{gtest} and \textsc{glog}.
+		\subsection*{\subsectionstyle{Writing and Presentation Tools}}
+				\begin{tabular}{p{5in}p{5.55in}}
+					\textsc{\LaTeX, Microsoft Office} & \\[.5mm]
+				\end{tabular}
 
         \subsection*{\subsectionstyle{Development and tooling}}
-            \begin{tabular}{p{1in}p{5.55in}}
-                \textsc{vagrant} & I usually rely on Vagrant in order to define a reference target environment when writing code.\\[.5mm]
-                \textsc{\{a,m,t,ub\}san} & I am familiar with the address/memory/thread/undefined-behavior sanitizers that are usually shipped along with modern compilers, like gcc and clang.\\[.5mm]
-                \textsc{bazel} & I usually rely on Bazel as my build system.\\[.5mm]
-                \textsc{other} & cpplint, clang-format, valgrind, gdb.
-            \end{tabular}
+        		\begin{tabular}{p{5in}p{5.55in}}
+        			\textsc{Bash scripting, cmake, bazel, cpplint, clang-format, valgrind, gdb} & \\[.5mm]
+        		\end{tabular}
+
+
+\section*{\numbox{9}\bfseries\textcolor{titlecol}{\sffamily Developed Software}}
+			\begin{tabular}{p{1.5in}p{5.55in}}
+				\textsc{BCompose} &  Highly efficient general-purpose decomposition-based solver for MILPs written in C++.\\[.5mm]
+				\textsc{SDDiP} & I collaborated on developing  this solver for multi-stage stochastic integer problems. \\[.5mm]
+				\textsc{Linear TV Ad Scheduler} & This package optimizes the advertisements aired on TVs such that all the business rules are satisfied and the revenue is maximized. \\[.5mm]
+				\textsc{Schedule Viewer} & This software allows the mangers to observe and manipulate the produced schedules in a very user-friendly framework.  \\[.5mm]
+			\end{tabular}
+
+\section*{\numbox{9}\bfseries\textcolor{titlecol}{\sffamily References}}
+Available upon request. 
 \end{document}
