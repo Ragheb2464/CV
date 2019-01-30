@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.4)  28 JAN 2019 14:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.4)  30 JAN 2019 11:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -833,160 +833,131 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 81.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 88.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 85.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 85.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 96.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 88.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 88.
 <static/logos/optimizedlogo.png, id=21, 401.5pt x 150.5625pt>
 File: static/logos/optimizedlogo.png Graphic file (type png)
 <use static/logos/optimizedlogo.png>
-Package pdftex.def Info: static/logos/optimizedlogo.png  used on input line 137
+Package pdftex.def Info: static/logos/optimizedlogo.png  used on input line 142
 .
 (pdftex.def)             Requested size: 71.13188pt x 26.67276pt.
 <static/logos/ISYE.jpg, id=22, 401.5pt x 118.4425pt>
 File: static/logos/ISYE.jpg Graphic file (type jpg)
 <use static/logos/ISYE.jpg>
-Package pdftex.def Info: static/logos/ISYE.jpg  used on input line 141.
+Package pdftex.def Info: static/logos/ISYE.jpg  used on input line 146.
 (pdftex.def)             Requested size: 72.83897pt x 21.4868pt.
-
-Overfull \hbox (0.56898pt too wide) in paragraph at lines 141--141
-[]| 
- []
-
-<static/logos/UoK.png, id=23, 341.275pt x 90.3375pt>
+<static/logos/cirrelt.jpg, id=23, 253.94875pt x 200.75pt>
+File: static/logos/cirrelt.jpg Graphic file (type jpg)
+<use static/logos/cirrelt.jpg>
+Package pdftex.def Info: static/logos/cirrelt.jpg  used on input line 150.
+(pdftex.def)             Requested size: 61.45805pt x 48.58226pt.
+<static/logos/UoK.png, id=24, 341.275pt x 90.3375pt>
 File: static/logos/UoK.png Graphic file (type png)
 <use static/logos/UoK.png>
-Package pdftex.def Info: static/logos/UoK.png  used on input line 145.
+Package pdftex.def Info: static/logos/UoK.png  used on input line 154.
 (pdftex.def)             Requested size: 78.24507pt x 20.71101pt.
-
-Overfull \hbox (5.97508pt too wide) in paragraph at lines 145--145
-[]| 
- []
-
-<static/logos/TPOI.jpg, id=24, 182.6825pt x 180.675pt>
+<static/logos/TPOI.jpg, id=25, 182.6825pt x 180.675pt>
 File: static/logos/TPOI.jpg Graphic file (type jpg)
 <use static/logos/TPOI.jpg>
-Package pdftex.def Info: static/logos/TPOI.jpg  used on input line 152.
-(pdftex.def)             Requested size: 42.67912pt x 42.2105pt.
-<static/logos/Mobien.png, id=25, 485.815pt x 104.39pt>
+Package pdftex.def Info: static/logos/TPOI.jpg  used on input line 161.
+(pdftex.def)             Requested size: 38.41139pt x 37.98973pt.
+<static/logos/Mobien.png, id=26, 485.815pt x 104.39pt>
 File: static/logos/Mobien.png Graphic file (type png)
 <use static/logos/Mobien.png>
-Package pdftex.def Info: static/logos/Mobien.png  used on input line 156.
+Package pdftex.def Info: static/logos/Mobien.png  used on input line 165.
 (pdftex.def)             Requested size: 78.24507pt x 16.81264pt.
-
-Overfull \hbox (5.97508pt too wide) in paragraph at lines 156--156
-[]| 
- []
-
-<static/logos/IUST.jpg, id=26, 405.515pt x 405.515pt>
+<static/logos/IUST.jpg, id=27, 405.515pt x 405.515pt>
 File: static/logos/IUST.jpg Graphic file (type jpg)
 <use static/logos/IUST.jpg>
-Package pdftex.def Info: static/logos/IUST.jpg  used on input line 160.
+Package pdftex.def Info: static/logos/IUST.jpg  used on input line 169.
 (pdftex.def)             Requested size: 42.67912pt x 42.67624pt.
-<static/logos/ABSAL.png, id=27, 301.125pt x 168.63pt>
+<static/logos/ABSAL.png, id=28, 301.125pt x 168.63pt>
 File: static/logos/ABSAL.png Graphic file (type png)
 <use static/logos/ABSAL.png>
-Package pdftex.def Info: static/logos/ABSAL.png  used on input line 164.
+Package pdftex.def Info: static/logos/ABSAL.png  used on input line 173.
 (pdftex.def)             Requested size: 55.48277pt x 31.06998pt.
-<static/logos/RAI.jpg, id=28, 165.61874pt x 203.76125pt>
+<static/logos/RAI.jpg, id=29, 165.61874pt x 203.76125pt>
 File: static/logos/RAI.jpg Graphic file (type jpg)
 <use static/logos/RAI.jpg>
-Package pdftex.def Info: static/logos/RAI.jpg  used on input line 168.
+Package pdftex.def Info: static/logos/RAI.jpg  used on input line 177.
 (pdftex.def)             Requested size: 39.83368pt x 49.00629pt.
 
-Overfull \hbox (5.93248pt too wide) in paragraph at lines 135--173
+Overfull \hbox (20.38626pt too wide) in paragraph at lines 140--182
 [] 
  []
 
 [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(/usr/local/texlive/2018/texmf-dist/tex/latex/ucs/data/uni-32.def
+[2 <./static/logos/optimizedlogo.png> <./static/logos/ISYE.jpg> <./static/logos
+/cirrelt.jpg> <./static/logos/UoK.png> <./static/logos/TPOI.jpg> <./static/logo
+s/Mobien.png> <./static/logos/IUST.jpg> <./static/logos/ABSAL.png> <./static/lo
+gos/RAI.jpg>] (/usr/local/texlive/2018/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-) [2 <./static/logos/optimizedlogo.png> <./static/logos/ISYE.jpg> <./static/log
-os/UoK.png> <./static/logos/TPOI.jpg> <./static/logos/Mobien.png> <./static/log
-os/IUST.jpg> <./static/logos/ABSAL.png> <./static/logos/RAI.jpg>]
+)
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 220.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/ucs/data/uni-0.def
+(Font)              <8> on input line 229.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 ) [3]
-Overfull \hbox (2.31877pt too wide) in paragraph at lines 254--258
+Overfull \hbox (2.31877pt too wide) in paragraph at lines 263--267
 [] 
  []
 
 
-Overfull \hbox (12.32207pt too wide) in paragraph at lines 261--272
+Overfull \hbox (49.29382pt too wide) in paragraph at lines 270--281
 [] 
  []
 
 
-Overfull \hbox (13.15993pt too wide) in paragraph at lines 277--283
-[] 
- []
-
-
-Overfull \hbox (295.01248pt too wide) in paragraph at lines 289--292
-[] 
- []
-
-
-Overfull \hbox (295.01248pt too wide) in paragraph at lines 294--297
-[] 
- []
-
-
-Overfull \hbox (295.01248pt too wide) in paragraph at lines 299--302
+Overfull \hbox (13.15993pt too wide) in paragraph at lines 286--292
 [] 
  []
 
 [4]
-Overfull \hbox (295.01248pt too wide) in paragraph at lines 303--306
+Overfull \hbox (20.38626pt too wide) in paragraph at lines 333--345
 [] 
  []
 
 
-Overfull \hbox (295.01248pt too wide) in paragraph at lines 308--311
+Underfull \hbox (badness 1178) in paragraph at lines 349--349
+[]\T1/lmr/m/sc/10 ENGLISH (flu-ent), FRENCH (ad-vanced in-ter-me-di-ate), KUR-D
+ISH (na-tive in both So-rani and
+ []
+
+
+Overfull \hbox (454.00626pt too wide) in paragraph at lines 348--351
 [] 
  []
 
 
-Overfull \hbox (295.01248pt too wide) in paragraph at lines 313--316
+Overfull \hbox (20.38626pt too wide) in paragraph at lines 354--358
 [] 
  []
 
-
-Overfull \hbox (295.01248pt too wide) in paragraph at lines 318--321
-[] 
- []
-
-
-Overfull \hbox (42.06749pt too wide) in paragraph at lines 324--330
-[] 
- []
-
-
+[5] 
 AED: lastpage setting LastPage
-[5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 333.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 333.
+[6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 360.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 360.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 333.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 333.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 360.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 360.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19411 strings out of 492647
- 349140 string characters out of 6129579
- 451888 words of memory out of 5000000
- 22859 multiletter control sequences out of 15000+600000
+ 19417 strings out of 492647
+ 349272 string characters out of 6129579
+ 452888 words of memory out of 5000000
+ 22863 multiletter control sequences out of 15000+600000
  91510 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,13n,54p,1007b,608s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1005,10 +976,10 @@ lm/lmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri10.pf
 b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/lo
 cal/texlive/2018/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texl
 ive/2018/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
-Output written on main.pdf (5 pages, 396196 bytes).
+Output written on main.pdf (6 pages, 405358 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
- 122 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 162 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
