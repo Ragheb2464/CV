@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.4)  25 MAR 2019 09:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.4)  1 MAY 2019 18:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -923,42 +923,42 @@ Overfull \hbox (13.15993pt too wide) in paragraph at lines 286--292
  []
 
 [4]
-Overfull \hbox (20.38626pt too wide) in paragraph at lines 337--344
+Overfull \hbox (20.38626pt too wide) in paragraph at lines 337--356
 [] 
  []
 
-
-Underfull \hbox (badness 1178) in paragraph at lines 348--348
+[5]
+Underfull \hbox (badness 1178) in paragraph at lines 360--360
 []\T1/lmr/m/sc/10 ENGLISH (flu-ent), FRENCH (ad-vanced in-ter-me-di-ate), KUR-D
 ISH (na-tive in both So-rani and
  []
 
 
-Overfull \hbox (454.00626pt too wide) in paragraph at lines 347--350
+Overfull \hbox (454.00626pt too wide) in paragraph at lines 359--362
 [] 
  []
 
 
-Overfull \hbox (20.38626pt too wide) in paragraph at lines 353--357
+Overfull \hbox (20.38626pt too wide) in paragraph at lines 365--369
 [] 
  []
 
-[5] 
+
 AED: lastpage setting LastPage
 [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 359.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 359.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 371.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 371.
  (./Ragheb_Rahmaniani_CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 359.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 359.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 371.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 371.
 Package rerunfilecheck Info: File `Ragheb_Rahmaniani_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 19417 strings out of 492647
- 349480 string characters out of 6129579
+ 19418 strings out of 492647
+ 349503 string characters out of 6129579
  452920 words of memory out of 5000000
- 22863 multiletter control sequences out of 15000+600000
+ 22864 multiletter control sequences out of 15000+600000
  91510 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,13n,54p,1023b,608s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -977,7 +977,7 @@ lm/lmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmri10.pf
 b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/lo
 cal/texlive/2018/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texl
 ive/2018/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
-Output written on Ragheb_Rahmaniani_CV.pdf (6 pages, 405157 bytes).
+Output written on Ragheb_Rahmaniani_CV.pdf (6 pages, 405735 bytes).
 PDF statistics:
  162 PDF objects out of 1000 (max. 8388607)
  125 compressed objects within 2 object streams
