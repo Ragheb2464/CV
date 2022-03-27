@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  31 JUL 2020 11:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  24 FEB 2022 09:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -827,195 +827,179 @@ LaTeX Font Info:    Trying to load font information for T1+lmss on input line 7
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 8
-1.
+0.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 8
-1.
+0.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-81.
+80.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-81.
+80.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 81.
+(Font)              <10> on input line 80.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 81.
+(Font)              <7> on input line 80.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 81.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 81.
+(Font)              <5> on input line 80.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 80.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 81.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 80.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 91.
+(Font)              <9> on input line 90.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 91.
+(Font)              <6> on input line 90.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 9
-6.
+5.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<static/logos/amazon.jpg, id=21, 192.72pt x 84.7968pt>
+Overfull \hbox (16.77254pt too wide) in paragraph at lines 102--119
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--119
+
+ []
+
+<static/logos/amazon.jpg, id=18, 192.72pt x 84.7968pt>
 File: static/logos/amazon.jpg Graphic file (type jpg)
 <use static/logos/amazon.jpg>
-Package pdftex.def Info: static/logos/amazon.jpg  used on input line 142.
+Package pdftex.def Info: static/logos/amazon.jpg  used on input line 124.
 (pdftex.def)             Requested size: 71.13188pt x 31.29797pt.
-<static/logos/optimizedlogo.png, id=22, 401.5pt x 150.5625pt>
+<static/logos/optimizedlogo.png, id=19, 401.5pt x 150.5625pt>
 File: static/logos/optimizedlogo.png Graphic file (type png)
 <use static/logos/optimizedlogo.png>
-Package pdftex.def Info: static/logos/optimizedlogo.png  used on input line 145
+Package pdftex.def Info: static/logos/optimizedlogo.png  used on input line 127
 .
 (pdftex.def)             Requested size: 71.13188pt x 26.67276pt.
-<static/logos/ISYE.jpg, id=23, 401.5pt x 118.4425pt>
+<static/logos/ISYE.jpg, id=20, 401.5pt x 118.4425pt>
 File: static/logos/ISYE.jpg Graphic file (type jpg)
 <use static/logos/ISYE.jpg>
-Package pdftex.def Info: static/logos/ISYE.jpg  used on input line 149.
+Package pdftex.def Info: static/logos/ISYE.jpg  used on input line 132.
 (pdftex.def)             Requested size: 72.83897pt x 21.4868pt.
-<static/logos/cirrelt.jpg, id=24, 253.94875pt x 200.75pt>
+
+Overfull \hbox (20.38626pt too wide) in paragraph at lines 123--137
+[] 
+ []
+
+<static/logos/cirrelt.jpg, id=21, 253.94875pt x 200.75pt>
 File: static/logos/cirrelt.jpg Graphic file (type jpg)
 <use static/logos/cirrelt.jpg>
-Package pdftex.def Info: static/logos/cirrelt.jpg  used on input line 153.
-(pdftex.def)             Requested size: 61.45805pt x 48.58226pt.
-<static/logos/UoK.png, id=25, 341.275pt x 90.3375pt>
+Package pdftex.def Info: static/logos/cirrelt.jpg  used on input line 143.
+(pdftex.def)             Requested size: 56.9055pt x 44.983pt.
+<static/logos/UoK.png, id=22, 341.275pt x 90.3375pt>
 File: static/logos/UoK.png Graphic file (type png)
 <use static/logos/UoK.png>
-Package pdftex.def Info: static/logos/UoK.png  used on input line 157.
+Package pdftex.def Info: static/logos/UoK.png  used on input line 146.
 (pdftex.def)             Requested size: 78.24507pt x 20.71101pt.
-<static/logos/TPOI.jpg, id=26, 182.6825pt x 180.675pt>
-File: static/logos/TPOI.jpg Graphic file (type jpg)
-<use static/logos/TPOI.jpg>
-Package pdftex.def Info: static/logos/TPOI.jpg  used on input line 164.
-(pdftex.def)             Requested size: 38.41139pt x 37.98973pt.
-<static/logos/Mobien.png, id=27, 485.815pt x 104.39pt>
-File: static/logos/Mobien.png Graphic file (type png)
-<use static/logos/Mobien.png>
-Package pdftex.def Info: static/logos/Mobien.png  used on input line 168.
-(pdftex.def)             Requested size: 78.24507pt x 16.81264pt.
-<static/logos/IUST.jpg, id=28, 405.515pt x 405.515pt>
-File: static/logos/IUST.jpg Graphic file (type jpg)
-<use static/logos/IUST.jpg>
-Package pdftex.def Info: static/logos/IUST.jpg  used on input line 172.
-(pdftex.def)             Requested size: 42.67912pt x 42.67624pt.
-<static/logos/ABSAL.png, id=29, 301.125pt x 168.63pt>
-File: static/logos/ABSAL.png Graphic file (type png)
-<use static/logos/ABSAL.png>
-Package pdftex.def Info: static/logos/ABSAL.png  used on input line 176.
-(pdftex.def)             Requested size: 55.48277pt x 31.06998pt.
-<static/logos/RAI.jpg, id=30, 165.61874pt x 203.76125pt>
-File: static/logos/RAI.jpg Graphic file (type jpg)
-<use static/logos/RAI.jpg>
-Package pdftex.def Info: static/logos/RAI.jpg  used on input line 180.
-(pdftex.def)             Requested size: 39.83368pt x 49.00629pt.
 
-Overfull \hbox (20.38626pt too wide) in paragraph at lines 140--185
+Overfull \hbox (20.38626pt too wide) in paragraph at lines 141--150
 [] 
  []
 
 [1
 
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \vbox (35.34952pt too high) has occurred while \output is active []
-
-
-[2 <./static/logos/amazon.jpg> <./static/logos/optimizedlogo.png> <./static/log
-os/ISYE.jpg> <./static/logos/cirrelt.jpg> <./static/logos/UoK.png> <./static/lo
-gos/TPOI.jpg> <./static/logos/Mobien.png> <./static/logos/IUST.jpg> <./static/l
-ogos/ABSAL.png> <./static/logos/RAI.jpg>]
-(/usr/local/texlive/2020/texmf-dist/tex/latex/ucs/data/uni-32.def
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./stati
+c/logos/amazon.jpg> <./static/logos/optimizedlogo.png> <./static/logos/ISYE.jpg
+>] (/usr/local/texlive/2020/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-22.
+[2 <./static/logos/cirrelt.jpg> <./static/logos/UoK.png>]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+93.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 235.
+(Font)              <8> on input line 206.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 ) [3]
-Overfull \hbox (2.31877pt too wide) in paragraph at lines 285--289
+Overfull \hbox (2.31877pt too wide) in paragraph at lines 251--255
 [] 
  []
 
 
-Overfull \hbox (49.29382pt too wide) in paragraph at lines 292--303
+Overfull \hbox (49.29382pt too wide) in paragraph at lines 258--269
+[] 
+ []
+
+
+Overfull \hbox (13.15993pt too wide) in paragraph at lines 274--280
 [] 
  []
 
 [4]
-Overfull \hbox (13.15993pt too wide) in paragraph at lines 308--314
+Overfull \hbox (20.38626pt too wide) in paragraph at lines 340--369
 [] 
  []
 
 
-Overfull \hbox (20.38626pt too wide) in paragraph at lines 370--389
+Overfull \hbox (56.52126pt too wide) in paragraph at lines 372--377
 [] 
  []
 
 [5]
-Overfull \hbox (56.52126pt too wide) in paragraph at lines 392--397
-[] 
- []
-
-
-Underfull \hbox (badness 1178) in paragraph at lines 402--402
+Underfull \hbox (badness 1178) in paragraph at lines 382--382
 []\T1/lmr/m/sc/10 ENGLISH (flu-ent), FRENCH (ad-vanced in-ter-me-di-ate), KUR-D
 ISH (na-tive in both So-rani and
  []
 
 
-Overfull \hbox (454.00626pt too wide) in paragraph at lines 401--404
+Overfull \hbox (454.00626pt too wide) in paragraph at lines 381--384
 [] 
  []
 
 
-Overfull \hbox (20.38626pt too wide) in paragraph at lines 407--411
+Overfull \hbox (20.38626pt too wide) in paragraph at lines 387--391
 [] 
  []
 
 
 AED: lastpage setting LastPage
 [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 429.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 429.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 409.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 409.
  (./Ragheb_Rahmaniani_CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 429.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 429.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 409.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 409.
 Package rerunfilecheck Info: File `Ragheb_Rahmaniani_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 20518 strings out of 480608
- 371169 string characters out of 5903631
- 653736 words of memory out of 5000000
- 35897 multiletter control sequences out of 15000+600000
- 620573 words of font info for 79 fonts, out of 8000000 for 9000
+ 20473 strings out of 480608
+ 370220 string characters out of 5903631
+ 646736 words of memory out of 5000000
+ 35858 multiletter control sequences out of 15000+600000
+ 617577 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,13n,60p,1023b,611s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
@@ -1023,21 +1007,19 @@ cal/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/20
 20/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2020/texmf-dist
 /fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/p
 ublic/lm/lmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/l
-mbx9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb>
-</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/loca
-l/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2
-020/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2020/texmf-d
-ist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/ty
-pe1/public/lm/lmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/l
-m/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr9.pfb><
-/usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local
-/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2
-020/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2020/texm
-f-dist/fonts/type1/public/lm/lmtt9.pfb>
-Output written on Ragheb_Rahmaniani_CV.pdf (6 pages, 424421 bytes).
+mcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi7.pfb>
+</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local
+/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/202
+0/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2020/texmf-dist
+/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
+/public/lm/lmr9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/l
+mri10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmss12.pfb>
+</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/lo
+cal/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
+Output written on Ragheb_Rahmaniani_CV.pdf (6 pages, 331590 bytes).
 PDF statistics:
- 167 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
+ 149 PDF objects out of 1000 (max. 8388607)
+ 120 compressed objects within 2 object streams
  36 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
